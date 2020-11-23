@@ -9,7 +9,7 @@ Resources:
     Type: AWS::Serverless::Function
     Properties:
       CodeUri: ./
-      Runtime: ruby2.7
+      Runtime: ruby2.5
       Handler: source.LambdaFunctions::Handler.process
       Events:
         CreateOrganizationApi:
